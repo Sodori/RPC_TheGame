@@ -4,7 +4,7 @@ body {
 
 .header {
     text-align: center;
-    font-size: xx-large;
+    font-size: 6vw;
     color: #000000;
     text-shadow: 2px 2px 0 #bcbcbc, 4px 4px 0 #9c9c9c;
 }
@@ -16,14 +16,21 @@ body {
     margin: 5%;
 }
 
-.cChoise {
-    width: 20px;
-    height: 20px;
+#cValue {
+    width: 9rem;
+    height: 4rem;
+    border: 0.1rem solid black;
+    background-color: whitesmoke;
+    margin: 2.5% 0;
+    padding: 0.5rem;
 }
 
 .pChoise button {
-    width: 2rem;
-    height: 2rem;
+    width: 4rem;
+    height: 4rem;
+    border: 0.1rem solid black;
+    background-color: whitesmoke;
+    margin: 2.5% 0;
 }
 
 .score { margin: 5% 0;}
@@ -31,7 +38,7 @@ body {
     display: inline;
     font-size: x-large;
     color: brown;
-    margin: 5% 0;
+    margin: 2.5% 0;
     padding: 0.5rem;
 }
 
