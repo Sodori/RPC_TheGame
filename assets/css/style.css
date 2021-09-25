@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(212, 22, 181)
+    background-color: antiquewhite;
 }
 
 .header {
@@ -11,6 +11,9 @@ body {
 
 .game {
     text-align: center;
+    width: 90%;
+    height: auto;
+    margin: 5%;
 }
 
 .cChoise {
@@ -18,16 +21,18 @@ body {
     height: 20px;
 }
 
-.pChoise {
-    width: 20px;
-    height: 20px;
-    background-color: aqua;
+.pChoise button {
+    width: 2rem;
+    height: 2rem;
 }
 
-.score {
+.score { margin: 5% 0;}
+.score p {
     display: inline;
     font-size: x-large;
     color: brown;
+    margin: 5% 0;
+    padding: 0.5rem;
 }
 
 .footer {

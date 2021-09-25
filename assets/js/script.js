@@ -4,6 +4,7 @@ function getRandom(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
-let cChoise
+let cChoise;
+let options = ['<i class="far fa-hand-rock"></i>', '<i class="far fa-hand-paper"></i>', '<i class="far fa-hand-scissors"></i>']
 
 console.log(getRandom(1, 10))
