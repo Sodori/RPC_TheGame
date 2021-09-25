@@ -1,3 +1,36 @@
 body {
-    background-color: antiquewhite;
+    background-color: rgb(212, 22, 181)
+}
+
+.header {
+    text-align: center;
+    font-size: xx-large;
+    color: #000000;
+    text-shadow: 2px 2px 0 #bcbcbc, 4px 4px 0 #9c9c9c;
+}
+
+.game {
+    text-align: center;
+}
+
+.cChoise {
+    width: 20px;
+    height: 20px;
+}
+
+.pChoise {
+    width: 20px;
+    height: 20px;
+    background-color: aqua;
+}
+
+.score {
+    display: inline;
+    font-size: x-large;
+    color: brown;
+}
+
+.footer {
+    font-size: xx-small;
+    color: darkslategrey;
 }
