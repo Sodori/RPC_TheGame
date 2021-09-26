@@ -32,6 +32,7 @@ document.addEventListener("DOMContentLoaded", function() {
                     document.getElementById("tAnnounce").style.opacity = 0
                     document.getElementById("cValue").className = "fas fa-hands-wash fa-2x"
                     setTimeout(SparklyClean, 2000)
+                    ResultEffect("Cleaning!", "Navy")
                     break;
                 default:
                     alert(`Unknown button; ${buttonName}, what did you do?!`);
