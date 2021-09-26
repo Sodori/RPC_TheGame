@@ -15,8 +15,12 @@
     <h1 class="header">Rock Paper Scissors</h1>
 
     <div class="game">
-        <div id="cChoise" style="display: none;">
-            <i id="cValue" class=""></i>
+        <div id="cChoise">
+            <i id="cValue" class="fas fa-hand-sparkles fa-2x"><br>Computer</i>
+        </div>
+
+        <div class="tally">
+            <p id="tAnnounce">Hello</p>
         </div>
 
         <div class="pChoise">
@@ -25,10 +29,14 @@
             <button class="scissor"><i class="far fa-hand-scissors fa-2x"></i></button>
         </div>
 
+        <div class="reset">
+            <button class="bReset">Reset score!</button>
+        </div>
+        
         <div class="score">
-            <p>Win: <span class="sWin">0</span></p>
-            <p>Loss: <span class="sLoss">0</span></p>
-            <p>Tie: <span class="sTie">0</span></p>
+            <p>Win: <span id="sWin">0</span></p>
+            <p>Loss: <span id="sLoss">0</span></p>
+            <p>Tie: <span id="sTie">0</span></p>
         </div>
     </div>
 

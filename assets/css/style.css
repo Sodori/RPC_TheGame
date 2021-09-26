@@ -23,6 +23,16 @@ body {
     background-color: whitesmoke;
     margin: 2.5% 0;
     padding: 0.5rem;
+    opacity: 0;
+}
+
+#tAnnounce {
+    margin: 0;
+    font-size: xx-large;
+    opacity: 0;
+    display: block;
+    -webkit-text-stroke-width: 0.05rem;
+    -webkit-text-stroke-color: black;
 }
 
 .pChoise button {
@@ -37,12 +47,22 @@ body {
 .score p {
     display: inline;
     font-size: x-large;
+    text-overflow: ellipsis;
+    white-space: nowrap;
     color: brown;
     margin: 2.5% 0;
     padding: 0.5rem;
 }
 
-.footer {
-    font-size: xx-small;
-    color: darkslategrey;
+.bReset {
+    display: inline;
+    width: 12.5rem;
+    font-size: x-large;
+}
+
+@media  screen and (max-width: 500px) {
+    .header {
+        font-size: 9vw;
+    }
+    
 }
